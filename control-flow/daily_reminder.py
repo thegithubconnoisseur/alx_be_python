@@ -18,9 +18,9 @@ match priority:
         print("You have to choose from one fo the priorities given in the question.")
 
     
-if time_bound.lower() == "yes":
+if time_bound == "yes":
     print("Reminder:" + word + " that requires immediate attention today!")
 
-elif time_bound.lower() == "no":
+elif time_bound == "no":
     word += ". Consider completing it when you have free time."
     print("Note:" + word)
